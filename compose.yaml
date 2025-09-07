@@ -2,8 +2,7 @@ services:
   postgres:
     image: 'postgres:17'
     environment:
-      - 'POSTGRES_DB=postgres'
-      - 'POSTGRES_PASSWORD=root'
+      - 'POSTGRES_DB=urlshortener'
+      - 'POSTGRES_PASSWORD=postgres123'
       - 'POSTGRES_USER=postgres'
     ports:
-      - '5432:5432'
